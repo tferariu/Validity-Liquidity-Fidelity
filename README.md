@@ -5,11 +5,10 @@ and subsequently compiled to Plinth via the agda2hs transpiler.
 
 # Versions
 
-- agda: 2.6.4.1
-- agda2hs: between v1.2 & v1.3, commit f5ac455
-- agda-stdlib: v1.7.2
+- agda2hs: v1.3 (uses Agda v2.7.0.1 as a library)
+- agda-stdlib: v2.2
 
 # Setup instructions
 
-1. Typecheck files using `agda`
-2. Generate Haskell code using `agda2hs`
+- To just typecheck the Agda files: `make typecheck`
+- To compile the Agda files to Haskell (under the dist/ directory): `make compile`

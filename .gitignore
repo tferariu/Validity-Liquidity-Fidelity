@@ -1,0 +1,4 @@
+# Agda
+_build/
+*.agdai
+
