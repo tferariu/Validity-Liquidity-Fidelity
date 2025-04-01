@@ -1,0 +1,3 @@
+[submodule "test-CNE"]
+	path = test-CNE
+	url = git@github.com:tferariu/test-CNE.git
