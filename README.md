@@ -24,6 +24,7 @@ $ make compile
 $ git submodule update --init --recursive
 $ cd test-CNE/
 $ nix develop --extra-experimental-features nix-command --extra-experimental-features flakes
+$ cabal update
 $ cabal build all
 $ cabal run cardano-node-emulator
 ```
