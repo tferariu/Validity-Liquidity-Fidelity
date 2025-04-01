@@ -1,4 +1,5 @@
-# agda2plinth
+# agda2plinth: Formal verification of Cardano smart contracts in Agda
+[![CI](https://github.com/tferariu/agda2plinth/workflows/CI/badge.svg)](https://github.com/tferariu/agda2plinth/actions) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.???.svg)](https://doi.org/10.5281/zenodo.???)
 
 A prototype verification methodology, whereas Plutus contracts are modeled and formally verified in Agda,
 and subsequently compiled to Plinth via the agda2hs transpiler.
